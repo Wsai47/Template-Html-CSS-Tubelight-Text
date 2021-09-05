@@ -1,0 +1,32 @@
+/*17/11/2020*/
+
+ 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #380906;
+    
+}
+
+.titre{
+    position: relative;
+    font-size: 6em;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    line-height: 0.70em;
+    outline: none;
+    color: #fff;
+    text-shadow: 0 0 10px #ff0000,
+                    0 0 20px #ff0000,
+                    0 0 40px #ff0000,
+                    0 0 80px #ff0000,
+                    0 0 160px #ff0000;
+}
+
+
+
